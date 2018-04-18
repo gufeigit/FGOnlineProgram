@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
+    NSLog(@"我是用户AAA，请多多关照！");
     // Do any additional setup after loading the view.
 }
 - (void)viewWillAppear:(BOOL)animated {
