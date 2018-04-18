@@ -27,6 +27,7 @@
     [super viewDidLoad];
     [self configura];
     [self createView];
+    NSLog(@"我是用户BBB，修改过此处");
     // Do any additional setup after loading the view.
 }
 
