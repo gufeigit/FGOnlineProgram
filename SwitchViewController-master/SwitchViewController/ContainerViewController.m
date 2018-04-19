@@ -24,6 +24,7 @@
 @implementation ContainerViewController
 
 - (void)viewDidLoad {
+    NSLog(@"我是leader哦");
     [super viewDidLoad];
     [self configura];
     [self createView];
