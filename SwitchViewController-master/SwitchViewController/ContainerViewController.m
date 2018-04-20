@@ -33,6 +33,7 @@
 }
 
 - (void)configura {
+    NSLog(@"第二次打标签");
     self.segmentIndex = 0;
 }
 
