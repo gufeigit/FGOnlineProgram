@@ -24,16 +24,12 @@
 @implementation ContainerViewController
 
 - (void)viewDidLoad {
-    NSLog(@"我是leader哦");
     [super viewDidLoad];
     [self configura];
     [self createView];
-    NSLog(@"我是用户AAA，修改过此处");
-    // Do any additional setup after loading the view.
 }
 
 - (void)configura {
-    NSLog(@"第二次打标签");
     self.segmentIndex = 0;
 }
 
